@@ -11,3 +11,5 @@ df_test=pd.read_csv('../data/test.csv', delimiter=',')
 df_train=pd.read_csv('../data/train.csv', delimiter=',')
 df_gt=pd.read_csv('../data/gender_submission.csv', delimiter=',')
 
+import matplotlib.pyplot as plt 
+plt.close("all")
